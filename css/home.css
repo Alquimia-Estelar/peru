@@ -153,7 +153,12 @@ main .produc-tools {
     main {
         margin: 80px 10px !important;
     }
-
+    .jar {
+        height: 80px !important;
+    }
+    .cer{
+        width: 100px !important;
+    }
     .estrella {
 
         align-items: center;
@@ -229,7 +234,12 @@ main .produc-tools {
 
 /* ---------------------- RESPONSIVE DESIGN ---------------------- */
 @media (max-width: 768px) {
-
+    .jar {
+        height: 80px !important;
+    }
+    .cer{
+        width: 100px !important;
+    }
     main {
         margin: 80px 10px !important;
     }
@@ -311,5 +321,6 @@ main .produc-tools {
         flex-wrap: nowrap;
         display: flex;
     }
+
 
 }
